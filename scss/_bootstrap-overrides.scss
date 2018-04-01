@@ -8,6 +8,18 @@ a {
   }
 }
 
+.col-lg-4{
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:20px;
+}
+
+.col-md-6{
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:20px;
+}
+
 .btn {
   border-width: 2px;
 }
@@ -21,27 +33,27 @@ a {
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $black !important;
 }
 
 .text-secondary {
-  color: $secondary !important;
+  color: $black !important;
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: $black;
+  border-color: $black;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($primary, 10%);
-    border-color: darken($primary, 10%);
+    background-color: darken($black, 10%);
+    border-color: darken($black, 10%);
   }
 }
 
 .btn-secondary {
-  background-color: $secondary;
-  border-color: $secondary;
+  background-color: $black;
+  border-color: $black;
   &:hover,
   &:focus,
   &:active {

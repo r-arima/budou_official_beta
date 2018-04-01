@@ -40,15 +40,15 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #FFFFFF;
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #FFFFFF;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #FFFFFF;
   background-color: white;
 }
 
@@ -102,7 +102,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #000;
 }
 
 #mainNav .navbar-nav {
@@ -111,19 +111,19 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #000;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #000;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #000;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #FFFFFF;
 }
 
 #mainNav .navbar-toggler {
@@ -149,12 +149,12 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #18BC9C;
+    color: #000;
+    background: #FFFFFF;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #18BC9C;
+    color: #000;
+    background: #FFFFFF;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -210,7 +210,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -313,7 +313,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #FFFFFF;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -323,20 +323,32 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #000;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #e6e6e6;
 }
 
 a {
-  color: #18BC9C;
+  color: #FFFFFF;
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #e6e6e6;
+}
+
+.col-lg-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.col-md-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
 }
 
 .btn {
@@ -344,37 +356,37 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #FFFFFF !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #FFFFFF !important;
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #000 !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #000 !important;
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #000;
+  border-color: #000;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #000;
+  border-color: #000;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #1a252f;
-  border-color: #1a252f;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
 }
