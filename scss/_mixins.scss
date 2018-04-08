@@ -1,8 +1,9 @@
 @mixin body-font() {
-  font-family: 'Lato';
+  font-family: 'Cormorant Garamond', serif;
 }
 
 @mixin heading-font() {
-  font-weight: 700;
-  font-family: 'Montserrat';
+  // font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+
 }
