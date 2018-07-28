@@ -1,11 +1,11 @@
 // Styling for the portfolio section
-.portfolio {
+.products {
   margin-bottom: -15px;
   .portfolio-item {
     position: relative;
     display: block;
     max-width: 25rem;
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
     .portfolio-item-caption {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
@@ -20,10 +20,14 @@
       }
     }
   }
+  .product_desc{
+    padding-top: 15px;
+
+  }
   @media (min-width: 576px) {
     margin-bottom: -30px;
     .portfolio-item {
-      margin-bottom: 30px;
+      // margin-bottom: 30px;
     }
   }
 }

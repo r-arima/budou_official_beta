@@ -56,7 +56,7 @@ section {
 }
 
 section h2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 2rem;
 }
 
@@ -104,6 +104,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav {
+  margin-left: auto;
   margin-top: 1rem;
   letter-spacing: 0.0625rem;
 }
@@ -118,10 +119,6 @@ section h2 {
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #000;
-}
-
-#mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #FFFFFF;
 }
 
 #mainNav .navbar-toggler {
@@ -192,18 +189,17 @@ header.masthead h2 {
   }
 }
 
-.portfolio {
+.products {
   margin-bottom: -15px;
 }
 
-.portfolio .portfolio-item {
+.products .portfolio-item {
   position: relative;
   display: block;
   max-width: 25rem;
-  margin-bottom: 15px;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption {
+.products .portfolio-item .portfolio-item-caption {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -211,20 +207,21 @@ header.masthead h2 {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.products .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.products .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
 
+.products .product_desc {
+  padding-top: 15px;
+}
+
 @media (min-width: 576px) {
-  .portfolio {
+  .products {
     margin-bottom: -30px;
-  }
-  .portfolio .portfolio-item {
-    margin-bottom: 30px;
   }
 }
 
@@ -351,6 +348,7 @@ a:focus, a:hover, a:active {
 
 .btn {
   border-width: 2px;
+  border: none;
 }
 
 .bg-primary {

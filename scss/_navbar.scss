@@ -7,6 +7,7 @@
     color: $black;
   }
   .navbar-nav {
+    margin-left: auto;
     margin-top: 1rem;
     letter-spacing: 0.0625rem;
     li.nav-item {
@@ -19,9 +20,9 @@
         &:focus {
           color: $black;
         }
-        &.active {
-          color: $primary;
-        }
+        // &.active {
+        //   color: $primary;
+        // }
       }
     }
   }

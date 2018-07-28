@@ -28,9 +28,20 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119987603-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119987603-1');
+    </script>
+
+
   </head>
 
-  <body id="page-top">
+  <body id="page-top" style = "padding-left: 46px; padding-right: 45px;">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
@@ -38,7 +49,6 @@
         <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">ここにはロゴを出す</a> -->
 
         <button class="navbar-toggler navbar-toggler-right text-uppercase  rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -56,19 +66,19 @@
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
             </li> -->
           </ul>
-          <ul class="navbar-nav" style="margin-left: auto;">
-            <li class="list-inline-item" style="margin-bottom:11px">
-              <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.facebook.com/Budou/">
+          <ul class="navbar-nav">
+            <li class="list-inline-item">
+              <a class="btn btn-outline-dark btn-social text-center" href="https://www.facebook.com/Budou/">
                 <i class="fa fa-fw fa-facebook"></i>
               </a>
             </li>
-            <!-- <li class="list-inline-item">
-              <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="#">
-                <i class="fa fa-fw fa-google-plus"></i>
-              </a>
-            </li> -->
             <li class="list-inline-item">
-              <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://twitter.com/budou_records?s=09">
+              <a class="btn btn-outline-dark btn-social text-center" href="https://www.instagram.com/budou_records/">
+                <i class="fa fa-fw fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-dark btn-social text-center" href="https://twitter.com/budou_records?s=09">
                 <i class="fa fa-fw fa-twitter"></i>
               </a>
             </li>
@@ -105,6 +115,20 @@
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4 ">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <!-- <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div> -->
+              <img class="img-fluid" src="img/products/Lastembouchure-02.png" alt="">
+            </a>
+            <div class="product_desc text-secondary text-center">
+              Last Embouchure<br>JariBu Afrobeat Arkestra
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 ">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
               <!-- <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -113,6 +137,9 @@
               </div> -->
               <img class="img-fluid" src="img/products/NEWWORLD7-01.png" alt="">
             </a>
+            <div class="product_desc text-secondary text-center">
+              NEW WORLD<br>JariBu Afrobeat Arkestra
+            </div>
           </div>
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
@@ -123,7 +150,13 @@
               </div> -->
               <img class="img-fluid" src="img/products/navy-front.jpg" alt="">
             </a>
+            <div class="product_desc text-secondary text-center">
+              Official cap (navy)<br>Comming soon
+            </div>
           </div>
+
+
+
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
               <!-- <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -133,6 +166,9 @@
               </div> -->
               <img class="img-fluid" src="img/products/sand-front.jpg" alt="">
             </a>
+            <div class="product_desc text-secondary text-center">
+              Official cap (sand)<br>Comming soon
+            </div>
           </div>
           <!-- <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
@@ -175,13 +211,12 @@
         <div class="row">
           <div class="col-md-6 col-lg-4">
 <!-- TODO:ジャリブのモーダルをつくってリンクする -->
-            <!-- <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6"> -->
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
 
-              <!-- <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
-              </div> -->
+              </div>
               <img class="img-fluid" src="img/artists/JariBu.png" alt="">
             </a>
           </div>
@@ -220,7 +255,7 @@
         <div class="row">
           <div class="col-lg-7 ml-auto">
             <p class="lead">
-              Nojiri Tatsuya<br>(art director)<br><br>Sagi Tokimune<br>(Marketer)<br><br>Ryosuke Ishida<br>(Recording engineer)<br><br>Ryuichiro Arima<br>(Internet man)<br><br>Suzuki Yutaro<br>(President)<br>
+              Nojiri Tatsuya<br>(art director)<br><br>Sagi Tokimune<br>(Marketer)<br><br>Ishida Ryosuke<br>(Recording engineer)<br><br>Arima Ryuichiro<br>(Internet man)<br><br>Suzuki Yutaro<br>(President)<br>
             </p>
           </div>
           <!-- <div class="col-lg-4 mr-auto">
@@ -288,6 +323,7 @@
     <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
+
         <div class="row">
           <!-- <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Location</h4>
@@ -348,8 +384,8 @@
 
     <!-- Portfolio Modals -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -357,11 +393,19 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">New World</h2>
+              <h2 class="text-secondary  mb-0">Last Embouchure</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/products/NEWWORLD7-01.png" alt="">
-              <p class="mb-5">アフロビートの祖 Fela Kuti 直系の日本屈指のアフロビートバンド JariBu Afrobeat Arkestraが、初めてぶどうレコードからリリース。10年余りの時を経て、彼らがたどり着いた ”New World”とは？</p>
-              <p class="mb-5">Jaribu Afrobeat Arkestra, one of the best Japanese afrobeat bands directly influenced by Fela Kuti, release a single from Budou Records first time. What does “New World” sound like after 10 years journey of theirs?</p>
+              <img class="img-fluid mb-5" src="img/products/Lastembouchure-02.png" alt="">
+              <p class="mb-5">ぶどうレコードから、JariBu Afrobeat Arkestra 配信第二弾。クセになる重めなグルーヴと、”raw”なホーンセクション。シネマティックなサウンドから、何かが起きそうな予感がする。</p>
+              <p class="mb-5">From Budou Records, JariBu Afrobeat Arkestra brought second delivery. Heavy grooves and "raw" horn section sound  cinematic, so then you feel something up next.</p>
+
+
+              <p>Listen on apple music</p>
+              <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/last-embouchure/1417429623?i=1417429785&app=music" width="100%"></iframe>
+
+              <p>Listen on spotify</p>
+              <iframe src="https://open.spotify.com/embed/track/0hbMEJkC7umkzjqhY2cVoS" width="100%" height="110" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -372,7 +416,35 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal 2 -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary  mb-0">New World</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/products/NEWWORLD7-01.png" alt="">
+              <p class="mb-5">アフロビートの祖 Fela Kuti 直系の日本屈指のアフロビートバンド JariBu Afrobeat Arkestraが、初めてぶどうレコードからリリース。10年余りの時を経て、彼らがたどり着いた ”New World”とは？</p>
+              <p class="mb-5">Jaribu Afrobeat Arkestra, one of the best Japanese afrobeat bands directly influenced by Fela Kuti, release a single from Budou Records first time. What does “New World” sound like after 10 years journey of theirs?</p>
+              <p>Listen on apple music</p>
+              <iframe src="https://tools.applemusic.com/embed/v1/song/1372268770?country=us" height="110px" width="100%" frameborder="0"></iframe>
+              <p>Listen on spotify</p>
+              <iframe src="https://open.spotify.com/embed/album/7ImSpcwXR7DcrRzZjgvLQg" width="100%" height="110" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -387,6 +459,7 @@
               <img class="img-fluid mb-5" src="img/products/navy-side.jpg" alt="">
               <img class="img-fluid mb-5" src="img/products/navy-back.jpg" alt="">
               <p class="mb-5">NEWHATTAN/ <br>Free Size/ <br>Color: Navy/ <br>Corduroy</p>
+              <p class="mb-5">comming soon</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -411,6 +484,7 @@
               <img class="img-fluid mb-5" src="img/products/sand-side.jpg" alt="">
               <img class="img-fluid mb-5" src="img/products/sand-back.jpg" alt="">
               <p class="mb-5">NEWHATTAN/ <br>Free Size/<br> Color: Sand/<br> Corduroy</p>
+              <p class="mb-5">comming soon</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -419,6 +493,94 @@
         </div>
       </div>
     </div>
+
+
+
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">JariBu Afrobeat Arkestra</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid" src="img/artists/JariBu.png" alt="">
+
+              <p class="mb-5"></p>
+
+              <p class="mb-5">日本のインストゥルメンタル・アフロビートバンド。
+
+アフロビートとは、アフリカはナイジェリアの英雄であるフェラ " アニクラポ " クティが発明し、提唱した音楽。 そのアフロビートを継承し、更に深化創造する決意のもとバンド名を JariBu と命名（jaribu（ジャリブ）とは「挑戦する」という意味のスワヒリ語。）
+
+2009年、Fuji rock festetival 2009 に出演。
+
+2012年4月、シンガー＆ラッパーの COMA-CHI のシングル"Endless rhythm EP" にて生演奏によるリミックスに参加。
+
+2009年以来5年ぶりとなる、Fuji Rock Festival2014出演。また2度目のワンマンライブ＠青山Cay、満上のご来場にて終了。
+
+2015年10月初の韓国遠征。成功を収める。
+
+2016年秋、フランス・スペインツアー。
+
+</p>
+
+            <p class="mb-5">
+              JariBu Afrobeat Arkestra
+
+              JariBu Afrobeat Arkestra are an instrumental band playing music based on Afrobeat. Spiritually influenced by the great Fela Kuti, "JariBu" (which means "Try" in Swahili language) have created their own "Neo Afrobeat" sound, interweaving traditional afrobeat with funk and jazz sounds.In April 2009, they released their 1st album "Afro Sound System", which was critically acclaimed by many DJs and radio producers. The CDs sold out but the album is still available in digital format. After participating in the "FUJI ROCK FESTIVAL 09" (the biggest and best known festival in Japan) in the summer of that year, they then started to search for ways to expand and develope their afrobeat sound and began recording a new album. A 7" single, "Legend of Yoruba Part 1&2" was released in late 2010, which was very well-received, and this is one of the cuts from the new album "MEDIACRACY" to be released in October 2011.Over the past couple of years, JariBu Afrobeat Arkestra have established themselves as one of the most exciting live bands on the Tokyo scene. They currently play three to four gigs a month, including their own popular monthly event "Natural Vibes" at "Plug" in Shibuya and are the undisputed leaders of the Japanese afrobeat scene.
+
+            <!-- <p class="mb-5">
+              <br>
+              Biography
+              <br>
+              Apr. 2009 mini-album "Afro Sound System" (CD) release<br>
+              Jul. 2009 FUJI ROCK FESTIVAL 2009<br>
+              Oct. 2010 "Legent Of Yoruba Part 1&2" (7") release<br>
+              Nov. 2011 1st Album "MEDIACRACY" (CD) release<br>
+              Jan. 2012 "MEDIACRACY" (*2LP), "Tricky Liar / Afro Soul Knows" (*7") release<br>
+                             * released from Tramp Record<br>
+              Jun. 2012 2nd Album "No More Patient" (CD) release<br>
+              Sep. 2012 "Deeper feat. COMA-CHI / D.I,G." (7") release<br>
+              Jun. 2014 3rd Album "JARIBU" (CD, *2LP) release<br>
+                             * released from Tramp Records<br>
+              Jul. 2014 FUJI ROCK FESTIVAL 2014<br>
+              Nov. 2015 Korea Tour "Afrovision" (Seoul)<br>
+              Oct. 2016 Frane/Spain Tour (Rennes, Santander, Madrid, Paris, St Marc Sur Mer and Nantes)<br>
+              Mar. 2017 Concert at Germany Embassy<br>
+              Nov. 2017 Concert in "Deutschlandfest (Germany Festival) 2017"<br>
+              Mar. 2018 "Scarface / This Day" (7"), "Eastern Comfort / Eko Ile" (7") release<br>
+              Apr. 2018 "BOMB -ultimate take - / Panama" (7"), "New World" (digital) release<br>
+
+            </p> -->
+
+            </p>
+                        <p class="mb-5"></p>
+            <p><a href="http://soulgarden-rec.net/jaribu/" style="color: #000000;">Official site</a></p>
+            <p>Listen on apple music</p>
+            <iframe src="https://tools.applemusic.com/embed/v1/song/1372268770?country=us" height="110px" width="100%" frameborder="0"></iframe>
+            <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/last-embouchure/1417429623?i=1417429785&app=music" width="100%"></iframe>
+            <p>Listen on spotify</p>
+            <iframe src="https://open.spotify.com/embed/album/7ImSpcwXR7DcrRzZjgvLQg" width="100%" height="110" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/track/0hbMEJkC7umkzjqhY2cVoS" width="100%" height="110" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
 
 
     <!-- Bootstrap core JavaScript -->
