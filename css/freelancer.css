@@ -1,5 +1,5 @@
 body {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 h1,
@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Noto Sans JP', sans-serif;;
 }
 
 hr.star-light,
@@ -110,7 +110,7 @@ section h2 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Noto Sans JP', sans-serif;;
 }
 
 #mainNav .navbar-brand {
@@ -186,7 +186,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Noto Sans JP', sans-serif;;
 }
 
 @media (min-width: 992px) {
