@@ -1,2 +1,18 @@
-node_modules
-*.DS_Store
+# generally
+.DS_Store
+*.swp
+DerivedData
+
+# ObjC/Swift specific
+*.hmap
+*.ipa
+
+# Carthage
+Carthage/
+
+# Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcsmblueprint
+.idea/
